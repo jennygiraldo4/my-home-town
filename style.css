@@ -1,0 +1,113 @@
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+body,html {
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #70A9A1;
+        
+}
+
+
+.container-header{ 
+    background-image: url(https://media2.giphy.com/media/AFlCifpPU6pAQ/giphy.gif?cid=ecf05e47lpubm0zhwar23114q6m5m7sb2hxeuru2axw0tad6&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-size:cover;
+    color:aliceblue;
+    padding:40px 10px;
+    height:400px;
+    
+    
+    
+    
+}
+
+.btn{ 
+    padding:5px 20px;
+    border-radius: 15px;
+    border: 1px solid white ;
+    margin-top: 150px;
+    font-weight: bold;
+    color: black;
+    background-color: aqua;
+ }
+
+ 
+  .container-activities{
+    background-color: #EAFDF8;
+    padding-top:20px;
+    
+  }
+ .list-activities{ 
+    
+    display: flex;
+    margin:50px;
+    justify-content: space-around;
+    align-items: center;;
+ }
+
+ .container-text {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding:10px 30px;
+ }
+
+ .activities-photo {
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border: px solid black;
+    margin-bottom: 20px;
+    
+ }
+
+.carousel-item {
+    background-image: cover;
+    height:500px;
+}
+#formular{
+    margin-top: 50px;;
+    padding:30px;
+}
+
+ @media only screen and (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
+
+    
+
+    @media only screen and (max-width: 562px) {
+        .list-activities {
+            display:flex;
+            flex-direction:column;
+            text-align: center;
+        }
+        
+    
+          .container-header{ 
+            background-image: url(https://images.unsplash.com/photo-1532443603613-61fa154742cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80);
+            background-size:cover;
+        }
+      }
+      
+      
+
+
+
+
+  
+
+ 
+
+
+
